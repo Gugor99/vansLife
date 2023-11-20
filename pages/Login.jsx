@@ -48,6 +48,7 @@ export default function Login() {
                 error?.message &&
                     <h3 className="login-error">{error.message}</h3>
             }
+            <p>mail:gabyxvan@.com password:vanz</p>
 
             <form onSubmit={handleSubmit} className="login-form">
                 <input
