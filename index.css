@@ -6,6 +6,9 @@ html,
 body {
     margin: 0;
     padding: 0;
+    /* padding-left: 3em;
+
+    padding-right: 3em; */
     background-color: #fff7ed;
     font-family: "Inter", sans-serif;
 }
@@ -159,6 +162,12 @@ footer {
 }
 
 /*** ABOUT PAGE ***/
+
+.about-page-container {
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
 .about-hero-image {
     max-width: 100%;
 }
@@ -200,6 +209,8 @@ footer {
 /*** VAN PAGES ***/
 .van-list-container {
     padding-inline: 23px;
+    padding-left: 4em;
+    padding-right: 4em;
 }
 
 .van-list-filter-buttons {
@@ -292,6 +303,8 @@ i[class*="van-type-"] {
 
 .van-detail-container {
     padding-inline: 27px;
+    padding-left: 4em;
+    padding-right: 4em;
 }
 
 .van-detail-container .back-button {
