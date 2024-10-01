@@ -38,6 +38,8 @@ header {
     display: flex;
     align-items: center;
     padding-block: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 header .site-logo {
